@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <PreferenceCategory android:title="Twitterの認証設定">
+            <Preference
+                android:key="@string/key_preference_twitter_user_info"
+                android:title="test"/>           
+            <EditTextPreference
+                android:dialogTitle="PINコードの入力"
+                android:key="@string/key_preference_twitter"
+                android:summary="クリックするとTwitterの認証画面がWebブラウザで開かれます。あなたのTwitterのアカウント情報を入力して認証するとPINコードが表示されますので、をメモした後再び、このアプリを起動して、そのPINコードを入力してください。"
+                android:title="ツイッター認証" />
+        </PreferenceCategory>
+        <PreferenceCategory android:title="アプリのデフォルト値設定">
+            <EditTextPreference
+                android:key="@string/key_current_wakeUpButton_message"
+                android:title="ホーム１つ目のボタン"
+                android:summary="ここで設定された値が、ボタン名およびそのボタンを押下した際にツイートされるメッセージになります"
+                android:dialogTitle="ボタン名入力"
+                android:defaultValue="@string/homefragment_default_wakeUpButton_title" />
+            <EditTextPreference
+                android:key="@string/key_current_goToBedButton_message"
+                android:title="ホーム2つ目のボタン"
+                android:summary="ここで設定された値が、ボタン名およびそのボタンを押下した際にツイートされるメッセージになります"
+                android:dialogTitle="ボタン名入力"
+                android:defaultValue="@string/homefragment_default_goBedButton_title" />
+        </PreferenceCategory>
+    </PreferenceScreen>

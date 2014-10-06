@@ -1,0 +1,9 @@
+INDEX VERSION 1.126+/Users/yuya/Public/EasyTwitter/workspaseTwitterClientApps/.metadata/.plugins/org.eclipse.jdt.core
+2966555993.index
+4137642023.index
+1797803029.index
+404576543.index
+1244922345.index
+219701655.index
+983437165.index
+1359724929.index

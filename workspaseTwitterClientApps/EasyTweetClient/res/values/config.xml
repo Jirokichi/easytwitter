@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  利用する値 -->
+    <string name="consumerKey">wvubjqgl7EzbkE8aAPuZB6ajF</string>
+    <string name="consumerSecret">mWPymrjSVsi0UDpvWcf3bi6C47OfULrO8IRqlIsCOmtF8RF1kU</string>
+    
+    
+    <!--   Key for Preference -->
+    <string name="key_preference_twitter">KEY_PREFERENCE_TWITTER</string>
+    <string name="key_preference_twitter_user_info">KEY_USER_INFO</string>
+    
+    <!-- 保存しているTwitterのAccessToken -->
+    <string name="key_twitter_accessToken">KEY_ACCESSTOKEN</string>
+    <string name="key_twitter_accessTokenSecret">KEY_ACCESSTOKEN_SECRET</string>
+    
+    
+    
+    <!-- ホームの2つのボタンの表示テキスト(ツイートメッセージ)の値を保存するためのキー -->
+    <string name="key_current_wakeUpButton_message">KEY_BUTTON_MESSAGE_FOR_WAKEUPBUTTONE</string>
+    <string name="key_current_goToBedButton_message">KEY_BUTTON_MESSAGE_FOR_GOTOBEDBUTTONE</string>
+
+    
+    
+</resources>

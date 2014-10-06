@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">簡単ツイートアプリ</string>
+    <string name="action_settings">設定</string>
+    <string name="title_section_home">ホーム</string>
+    <string name="title_section_history">履歴</string>
+    
+    <!-- HomeFragmentのvalue -->
+    <string name="homefragment_default_wakeUpButton_title">起床</string>
+    <dimen name="homefragment_default_wakeUpButton_size">30sp</dimen>
+    
+    <string name="homefragment_default_goBedButton_title">就寝</string>
+    <dimen name="homefragment_default_goBedButton_size">30sp</dimen>
+    
+    <string name="homefragment_default_tweetButton_title">ツイート</string>
+    <dimen name="homefragment_default_tweetButton_size">30sp</dimen>
+
+    <string name="homefragment_hint_tweetEditText">定型文以外をつぶやく場合はここに入力してください</string>
+    <string name="homefragment_alertDialog_no_tweet_message">文字が入力されていません</string>
+    
+    <string name="homefragment_alertDialog_message">「%s」をつぶやきますか？</string>
+    <string name="homefragment_alertDialog_twice_message">すでに今日は「%s」をつぶやいていますが、再度つぶやきますか？</string>
+
+    <!-- Common message -->
+    <string name="dialog_title_to_confirm">確認</string>
+    <string name="Yes">はい</string>
+    <string name="No">いいえ</string>
+    
+    <!--  Setting -->
+    <string name="mypreference_no_url_alert_message">URLが不正です</string>
+    
+    
+</resources>
